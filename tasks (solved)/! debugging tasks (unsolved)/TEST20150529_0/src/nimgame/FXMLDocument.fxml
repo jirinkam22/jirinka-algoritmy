@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="nimgame.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" defaultButton="true" layoutX="133.0" layoutY="149.0" onAction="#handleButtonAction" text="Take!" />
+        <Label fx:id="label" layoutX="107.0" layoutY="23.0" minHeight="16" minWidth="69" text="Simplified NIM" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="74.0" layoutY="74.0" text="Count:" />
+      <TextField fx:id="tfCount" editable="false" layoutX="169.0" layoutY="69.0" prefHeight="31.0" prefWidth="56.0" promptText="count" />
+      <TextField fx:id="tfPlayer" layoutX="169.0" layoutY="100.0" prefHeight="31.0" prefWidth="56.0" promptText="1-3" />
+      <Label layoutX="74.0" layoutY="105.0" text="Player takes:" />
+    </children>
+</AnchorPane>

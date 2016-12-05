@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculatorfx.CalculatorFXMLController">
+    <children>
+      <TextField fx:id="display" alignment="CENTER_RIGHT" layoutX="41.0" layoutY="25.0" prefHeight="51.0" prefWidth="195.0" promptText="enter number" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button0" layoutX="84.0" layoutY="232.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton0Action" prefHeight="35.0" prefWidth="40.0" text="0" AnchorPane.leftAnchor="84.0" AnchorPane.topAnchor="232.0" />
+      <Button fx:id="button1" layoutX="37.0" layoutY="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton1Action" prefHeight="35.0" prefWidth="40.0" text="1" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="186.0" />
+      <Button fx:id="button2" layoutX="84.0" layoutY="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton2Action" prefHeight="35.0" prefWidth="40.0" text="2" AnchorPane.leftAnchor="84.0" AnchorPane.topAnchor="186.0" />
+      <Button fx:id="button3" layoutX="132.0" layoutY="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton3Action" prefHeight="35.0" prefWidth="40.0" text="3" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="186.0" />
+      <Button fx:id="button4" layoutX="37.0" layoutY="142.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton4Action" prefHeight="35.0" prefWidth="40.0" text="4" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="142.0" />
+      <Button fx:id="button5" layoutX="84.0" layoutY="142.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton5Action" prefHeight="35.0" prefWidth="40.0" text="5" AnchorPane.leftAnchor="84.0" AnchorPane.topAnchor="142.0" />
+      <Button fx:id="button6" layoutX="132.0" layoutY="142.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton6Action" prefHeight="35.0" prefWidth="40.0" text="6" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="142.0" />
+      <Button fx:id="button7" layoutX="37.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton7Action" prefHeight="35.0" prefWidth="40.0" text="7" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="97.0" />
+      <Button fx:id="button8" layoutX="84.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton8Action" prefHeight="35.0" prefWidth="40.0" text="8" AnchorPane.leftAnchor="84.0" AnchorPane.topAnchor="97.0" />
+      <Button fx:id="button9" layoutX="132.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButton9Action" prefHeight="35.0" prefWidth="40.0" text="9" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="97.0" />
+      <Button fx:id="buttonPoint" layoutX="132.0" layoutY="232.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonPointAction" prefHeight="35.0" prefWidth="40.0" text="." AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="232.0" />
+      <Button fx:id="buttonClear" cancelButton="true" layoutX="37.0" layoutY="232.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonClearAction" prefHeight="35.0" prefWidth="40.0" text="C" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="232.0" />
+      <Button fx:id="buttonPlus" layoutX="195.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonPlusAction" prefHeight="35.0" prefWidth="40.0" text="+" AnchorPane.leftAnchor="195.0" AnchorPane.topAnchor="97.0" />
+      <Button fx:id="buttonMinus" layoutX="195.0" layoutY="142.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonMinusAction" prefHeight="35.0" prefWidth="40.0" text="-" AnchorPane.leftAnchor="195.0" AnchorPane.topAnchor="142.0" />
+      <Button fx:id="buttonResult" defaultButton="true" layoutX="195.0" layoutY="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonResultAction" prefHeight="81.0" prefWidth="40.0" text="=" />
+    </children>
+</AnchorPane>

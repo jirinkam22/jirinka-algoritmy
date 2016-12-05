@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="polymorphism.PolymorphismController">
+    <children>
+        <Button layoutX="376.0" layoutY="191.0" onAction="#handleButtonActionWoman" text="Says" />
+        <Label fx:id="labelWoman" layoutX="295.0" layoutY="120.0" minHeight="16" minWidth="69" text="WOMAN" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="48.0" />
+         </font></Label>
+      <Label fx:id="labelGirlFriend" layoutX="166.0" layoutY="267.0" minHeight="16" minWidth="69" text="Girlfriend" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelWife" layoutX="505.0" layoutY="267.0" minHeight="16" minWidth="69" text="Wife" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelMiL" layoutX="468.0" layoutY="412.0" minHeight="16" minWidth="69" text="Mother-in-law" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="215.0" layoutY="319.0" onAction="#handleButtonActionGirlfriend" text="Says" />
+      <Button layoutX="516.0" layoutY="319.0" onAction="#handleButtonActionWife" text="Says" />
+      <Button layoutX="516.0" layoutY="462.0" onAction="#handleButtonActionMiL" text="Says" />
+      <Label fx:id="labelSays" layoutX="71.0" layoutY="404.0" minHeight="16" minWidth="69" text="(nothing)" textFill="#323232">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="36.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

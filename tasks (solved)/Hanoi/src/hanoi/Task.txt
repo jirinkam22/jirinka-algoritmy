@@ -1,0 +1,15 @@
+Task task = new Task<Void>() {
+
+        @Override
+        protected Void call() {
+            static final int max = 1000000;
+            for (int i=1; i<=max; i++) {
+            
+            }
+            return null;
+        }
+
+    };
+    
+
+
